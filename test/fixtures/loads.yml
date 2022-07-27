@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weight: MyString
+  origin: MyString
+  destination: MyString
+  price_mile: 1
+  pickup_date: MyString
+  dropoff_date: MyString
+  shipper: one
+  carrier: one
+
+two:
+  weight: MyString
+  origin: MyString
+  destination: MyString
+  price_mile: 1
+  pickup_date: MyString
+  dropoff_date: MyString
+  shipper: two
+  carrier: two
