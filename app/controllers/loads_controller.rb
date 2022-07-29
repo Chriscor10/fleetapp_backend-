@@ -12,7 +12,7 @@ class LoadsController < ApplicationController
     end
 
     def create
-        loads = Load.create!(loads_params)
+        loads = Load.save!(loads_params)
         render json: loads, status: :created
     end
 
