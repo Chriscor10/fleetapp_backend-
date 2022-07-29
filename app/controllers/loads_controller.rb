@@ -31,7 +31,7 @@ class LoadsController < ApplicationController
     private
 
     def loads_params
-        params.permit( :container_size,
+        params.permit( 
             :weight,
             :origin,
             :destination,
